@@ -7,7 +7,7 @@ const userSchema = new Schema({
         type: mongoose.Types.ObjectId
     },
 
-    user_name: {
+    email: {
         type: String
     },
 
@@ -16,4 +16,4 @@ const userSchema = new Schema({
     }
 })
 
-module.export = mongoose.model('User', userSchema)
+module.exports = mongoose.model('User', userSchema)
